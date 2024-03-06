@@ -92,3 +92,5 @@
 // document.write("Value after addition is :", addition, "</br>");
 
 // document.write("Value after decrement is :", --addition, "</br>");
+
+// document.write("Value after division is: " , a/b, "</br>")
