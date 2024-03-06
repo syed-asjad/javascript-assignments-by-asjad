@@ -51,3 +51,44 @@
 
 // reserver keyword
 
+
+
+// MATH EXPRESSIONS
+
+
+// var number1 = +prompt("Enter first number:")
+
+// var numnber2 = +prompt("Enter second number:")
+
+// var addition = number1 + numnber2;
+
+// document.write(addition);
+// console.log(addition);
+
+
+// var lumber1 = +prompt("Enter First number");
+
+// var lumber2 = +prompt("Enter second number");
+
+// var result = lumber1 - lumber2;
+
+// document.write(result);
+// console.log(result)
+
+// var a;
+
+// a = 10;
+
+// document.write("Value after variable declaration is: ", a, "</br>");
+
+// document.write("Initial value: ", a , "</br>")
+
+// document.write("Value after increment is: ", ++a, "</br>");
+
+// var b = 2;
+
+// var addition = (a + b);
+
+// document.write("Value after addition is :", addition, "</br>");
+
+// document.write("Value after decrement is :", --addition, "</br>");
