@@ -94,3 +94,43 @@
 // document.write("Value after decrement is :", --addition, "</br>");
 
 // document.write("Value after division is: " , a/b, "</br>")
+
+// var price_of_movie_Ticket = 100;
+// var total_tickets_price = price_of_movie_Ticket * 5;
+// document.write("Total cost to buy 5 tickets to a movie is: ", total_tickets_price, "PKR")
+
+
+// document.write("<h2>Table of Five </h2>");
+// var Five = 5;
+// document.write("5"," x ", "1", " = ", Five*1, "</br>");
+// document.write("5"," x ", "2", " = ", Five*2,"</br>");
+// document.write("5"," x ", "3", " = ", Five*3,"</br>");
+// document.write("5"," x ", "4", " = ", Five*4,"</br>");
+// document.write("5"," x ", "5", " = ", Five*5,"</br>");
+// document.write("5"," x ", "6", " = ", Five*6,"</br>");
+// document.write("5"," x ", "7", " = ", Five*7,"</br>");
+// document.write("5"," x ", "8", " = ", Five*8,"</br>");
+// document.write("5"," x ", "9", " = ", Five*9,"</br>");
+// document.write("5"," x ", "10", " = ", Five*10,"</br>");
+
+// var cel = 20;
+// var fahrenheit = (cel*9/5) + 32;
+// document.write(cel, "<sup>0</sup>" + "C " + fahrenheit + "<sup>0</sup>" + "F" + "</br>");
+
+// celsius = (fahrenheit - 32)*5/9;
+// document.write(fahrenheit, "<sup>0</sup>" + "F " + celsius  + "<sup>0</sup>" + "C" );
+
+
+// var price1 = +prompt("Enter price of item1");
+// var price2 = +prompt("Enter price of item2");
+// var quantity1 = +prompt("Ordered quantity of item 1");
+// var quantity2 = +prompt("Ordered quantity of item 2");
+// var shiping_Charges = 100;
+// var Total = (price1*quantity1) + (price2 * quantity2) + shiping_Charges;
+// document.write("Price of item 1: " + price1 + "</br>");
+// document.write("Price of item 2: " + price2 + "</br>");
+// document.write("Quantity of item 1: " + quantity1 + "</br>");
+// document.write( "Quantity of item 2: " + quantity2 + "</br>");
+// document.write("Shipping Charges: " + shiping_Charges + "</br>");
+// document.write("Total cost of your order is: " + Total);
+
