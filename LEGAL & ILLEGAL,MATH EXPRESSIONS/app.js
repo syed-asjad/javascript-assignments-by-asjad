@@ -1,4 +1,4 @@
-// Declare 3 letiables in one statement?
+// Declare 3 Variables in one statement.
 
 // let num1,num2,num3;
 
