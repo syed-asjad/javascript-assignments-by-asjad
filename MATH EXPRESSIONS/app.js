@@ -42,27 +42,33 @@
 // console.log(`${value_for_table} x 8 = ${value_for_table*8}`);
 // console.log(`${value_for_table} x 9 = ${value_for_table*9}`);
 // console.log(`${value_for_table} x 10 = ${value_for_table*10}`);
-// let subject_one = prompt("Enter the name of first subject").toLowerCase();
-// let subject_two = prompt("Enter the name of second subject").toLowerCase();
-// let subject_three = prompt("Enter the name of third subject").toLowerCase();
+
+// ==================================================================
+
+// let subject_one = prompt("Enter the name of first subject");
+// let subject_two = prompt("Enter the name of second subject");
+// let subject_three = prompt("Enter the name of third subject");
 // let total_Marks = 100*3;
 // let obt_marks_subject_one = +prompt(`Enter Obtained marks of: ${subject_one}`);
 // let obt_marks_subject_two = +prompt(`Enter Obtained marks of: ${subject_two}`);
 // let obt_marks_subject_three = +prompt(`Enter Obtained marks of: ${subject_three}`);
+// let subject_one_percentage = (obt_marks_subject_one/100)*100;
+// let subject_two_percentage = (obt_marks_subject_two/100)*100;
+// let subject_three_percentage = (obt_marks_subject_three/100)*100;
 // let obtained_Marks = obt_marks_subject_one + obt_marks_subject_two + obt_marks_subject_three;
-// let percentage = (obtained_Marks/total_Marks)*100;
+// let total_percentage = (obtained_Marks/total_Marks)*100;
 
 // // Displaying the Result
 // document.write("<h2>Result</h2>");
-// document.write("<table>");
+// document.write("<table border=1px;>");
 
-// document.write("<tr><th>Subject</th><th>Total Marks</th><th>Obtained Marks</th></tr>");
-// document.write("<tr><td>" + subject_one + "</td><td>100</td><td>" + marks1 + "</td></tr>");
-// document.write("<tr><td>" + subject_two + "</td><td>100</td><td>" + marks2 + "</td></tr>");
-// document.write("<tr><td>" + subject_three + "</td><td>100</td><td>" + marks3 + "</td></tr>");
+// document.write("<tr><th>Subjects</th><th>Marks of Each Subject</th><th>Obtained Marks in each subject</th><th>Percentage in each subject</th></tr>");
+// document.write("<tr><td>" + subject_one + "</td><td>100</td><td>" + obt_marks_subject_one + "</td><td>" + subject_one_percentage + "%" + "</td></tr>");
+// document.write("<tr><td>" + subject_two + "</td><td>100</td><td>" + obt_marks_subject_two + "</td><td>" + subject_two_percentage + "%" +  "</td></tr>");
+// document.write("<tr><td>" + subject_three + "</td><td>100</td><td>" + obt_marks_subject_three +"</td><td>" +  subject_three_percentage + "%" +  "</td></tr>");
 // document.write("</table>");
 // document.write("<p>Total Marks: " + total_Marks + "</p>");
 // document.write("<p>Obtained Marks: " + obtained_Marks + "</p>");
-// document.write("<p>Percentage: " + percentage + "%</p>");
+// document.write("<p>Percentage: " + total_percentage + "%</p>");
 
 // document.write("</table>");
