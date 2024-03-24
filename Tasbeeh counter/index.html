@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasbeeh Counter</title>
+    <link rel="stylesheet" href="style.css">
+ 
+</head>
+
+<body>
+
+    <div class="main-container">
+
+        <h1 class="main-heading">Tasbeeh Counter</h1>
+
+        <div class="sub-container">
+
+
+            <div class="counter">
+                <h2>سُبْحَانَ اللَّه</h2>
+
+                <span class="count" id="zero">0</span>
+
+
+                <div main-btn>
+                    <form>
+                        <button type="button" class="incrementBtn" id="count" onclick="inc()"><img src="./assets/media/plus.png"
+                                alt="plus"></button>
+                        <button type="button" class="resetBtn" id="reset" onclick="resetvalue()"><img src="./assets/media/reset.png"
+                                alt="reset"></button>
+                    </form>
+                </div>
+            </div>
+
+
+            <div class="counter">
+                <h2>ٱلْحَمْدُ لِلَّٰهِ</h2>
+
+                <span class="count" id="zero2">0</span>
+
+
+                <div main-btn>
+
+                    <button class="incrementBtn" id="count" onclick="inc2();"><img src="./assets/media/plus.png"
+                            alt="plus" class="incrementBtn" id="count" ></button>
+                    <button class="resetBtn" id="reset" onclick="resetvalue2()"><img src="./assets/media/reset.png" alt="reset"></button>
+                </div>
+            </div>
+
+
+            <div class="counter">
+                <h2>الله أكبر</h2>
+
+                <span class="count" id="zero3">0</span>
+
+
+                <div main-btn>
+
+                    <button class="incrementBtn" id="count" onclick="inc3()"><img src="./assets/media/plus.png"
+                            alt="plus"></button>
+                    <button class="resetBtn" onclick="resetvalue3()"><img src="./assets/media/reset.png" alt="reset"></button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script type="text/javascript" src="app.js"></script>
+</body>
+
+</html>

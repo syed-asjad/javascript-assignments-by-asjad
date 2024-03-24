@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+h2,h1{
+
+    color: wheat;
+}
+
+h1.main-heading {
+    font-size: 60px;
+}
+
+@media only screen and (min-width: 600px) {
+    .sub-container{
+
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        align-items: center;
+        background-image: none;
+    }
+  }
+
+
+.main-container{
+
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('./assets/media/tasbeehimg2.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 10px;
+    justify-content: space-evenly;
+    padding-top: 103px; 
+}
+
+
+h1.main-heading {
+    margin: 2% 30% 2% 30%;
+    font-size: 60px;
+    background-color: #000000d9;
+    padding: 20px;
+    
+}
+
+.counter {
+    width: 400px;
+    height: 345px;
+    background-color: #000000d9;
+    margin: 10px;
+    padding: 58px;
+    margin-right: 64px;
+}
+
+.counter h2 {
+    font-size: 80px;
+    padding-bottom: 25px;
+}
+
+
+span.count {
+    font-size: 56px;
+    background-color: wheat;
+    padding: 5px;
+    border-radius: 33px;
+    margin-bottom: 50px;
+}
+
+.counter button {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-top: 30px;
+}
