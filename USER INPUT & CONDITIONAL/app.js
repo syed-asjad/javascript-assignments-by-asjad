@@ -40,3 +40,47 @@
 //     document.write("You have entered a wrong gender.");
 // }
 
+
+// let see_Signal = prompt("Input the Color that you are seeing on signal:").toLowerCase()
+
+// if(see_Signal === "red"){
+
+//     console.log("Please Stop!");
+//     document.write("<h1>Please Stop!</h1>");
+// }
+//     else if(see_Signal === "orange") {
+        
+//     console.log("Get Ready!");
+//     document.write("<h1>Get Ready!</h1>");
+
+//     }
+
+//     else if(see_Signal === "green"){
+
+//         console.log("Lets go!");
+//         document.write("<h1>Lets go!</h1>");   
+//     }
+
+//     else{
+
+//         console.log("You have entered wrong color!");
+//         document.write("<h1>You have entered wrong color!</h1>");   
+        
+//     }
+
+
+// let remaining_Fuel = +prompt("Enter fuel of you car in litre");
+
+// if(remaining_Fuel < 0.25){
+
+//     console.log("Please refill the fuel in your car!");
+//     document.write("Please refill the fuel in your car!");
+// }
+
+// else{
+
+//     console.log("You are ready to go!");
+//     document.write("You are ready to go!");
+
+// }
+
