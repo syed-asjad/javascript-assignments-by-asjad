@@ -54,3 +54,72 @@
 //   console.log("Invalid input");
 //   document.write("Invalid input");
 // }
+
+// let user_Number = +prompt("Input a number here");
+
+// if (user_Number > 0) {
+//   console.log("Number is positive");
+//   document.write("Number is positive");
+// } else if (user_Number < 0) {
+//   console.log("Number is Negitive");
+//   document.write("Number is Negitive");
+// } else if (user_Number === 0) {
+//   console.log("Number is equals to zero");
+//   document.write("Number is equals to zero");
+// } else {
+//   console.log("Invalid Input");
+//   document.write("Invalid Input");
+// }
+
+// let is_Vowel = prompt(
+//   "Enter a letter I will tell you its a vowel or not"
+// ).toLowerCase();
+
+// if (
+//   (is_Vowel == 'a' || is_Vowel == 'e'|| is_Vowel == 'i' || is_Vowel == 'o' || is_Vowel == 'u')
+// ) {
+//   console.log("The given input is a vowel");
+//   document.write("The given input is a  vowel");
+// } else {
+//   console.log("The given input is not a vowel");
+//   document.write("The given input is not a vowel");
+// }
+
+// let user_pass = 12345;
+// let input_pass = +prompt("Enter a Password");
+// if (user_pass === input_pass) {
+//   console.log("The Password you entered is correct!");
+//   document.write("The Password you entered is correct!");
+// } else {
+//   console.log("The Password you entered is not correct!");
+//   document.write("The Password you entered is not correct!");
+// }
+
+// var greeting;
+// var hour = 13;
+// if (hour < 18) {
+// console.log (greeting = "Good day");
+// }
+// else{
+//     console.log (greeting = "Good evening");
+// }
+
+// let time = 1900;
+// let time_Input = +prompt("Enter a time that you see in 24 hours clock");
+
+// if (time_Input >= "0000" && time_Input < "1200") {
+//   console.log("Good Morning");
+//   document.write("Good Morning");
+// } else if (time_Input >= "1200" && time_Input < "1700") {
+//   console.log("Good Afternoon");
+//   document.write("Good Afternoon");
+// } else if (time_Input >= "1700" && time_Input < "2100") {
+//   console.log("Good Evening");
+//   document.write("Good Evening");
+// } else if (time_Input >= "2100" && time_Input < "2359") {
+//   console.log("Good Night");
+//   document.write("Good Night");
+// } else {
+//   console.log("Invalid Input");
+//   document.write("Invalid Input");
+// }
