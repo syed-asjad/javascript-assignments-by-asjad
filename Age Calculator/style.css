@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.main_div {
+    display: flex;
+    align-items: center;
+    /* height: 100vh; */
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 230px 0px 230px;
+}
+
+.main_heading {
+    font-size: 50px;
+    font-family: poppins;
+}
+
+button.btn_age {
+    padding: 15px 40px;
+    margin: 60px;
+    background-color: yellow;
+    border: none;
+    border-radius: 30px;
+    font-size: 25px;
+    font-family: 'Poppins';
+    font-weight: 500;
+}
