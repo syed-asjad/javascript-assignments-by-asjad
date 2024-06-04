@@ -1,0 +1,54 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    padding: 50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+h1.heading-wrapper {
+    font-size: 25px;
+    font-family: cursive;
+}   
+
+label.input-txt {
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: 500;
+}
+
+input#bill-amount {
+    border-radius: 10px;
+    border: 1px solid gray;
+    height: 40px;
+    padding-left: 15px;
+}
+
+input#tip-percentage{
+
+    border-radius: 10px;
+    border: 1px solid gray;
+    height: 40px;   
+    padding-left: 15px;
+}
+button.btn-calculate {
+    border: none;
+    background-color: black;
+    font-size: 20px;
+    color: white;
+    padding: 16px;
+    font-family: cursive;
+}
+
+button.btn-calculate:hover {
+    background-color: gray !important;
+    transition: 0.2s;
+}
